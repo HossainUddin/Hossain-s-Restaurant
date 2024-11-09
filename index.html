@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hossain's Restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/bf2801c933.js" crossorigin="anonymous"></script>
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body id="top">
+    <div class="container mx-auto">
+      <div class="bg-white">
+        <!-- Navbar Section -->
+        <nav class="navbar black-color-bg white-color navbar-expand-lg border-bottom border-body fs-5 py-4 px-3 position-fixed fixed-top shadow-lg p-3 mb-5 ">
+          <div class="container-fluid container">
+            <a class="navbar-text fs-5" href="#">
+              <img style="width: 50px" src="assets/images/logo.png" alt="" />Hossain's Restaurant</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end gap-2" id="navbarNavDropdown">
+              <ul class="navbar-nav align-items-center">
+                <li class="nav-item fs-5">
+                  <a class="nav-link active" aria-current="page" href="index.html#top">Home</a>
+                </li>
+                <li class="nav-item fs-5">
+                  <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item fs-5">
+                  <a class="nav-link" href="index.html#service">Service</a>
+                </li>
+                <li class="nav-item fs-5">
+                  <a class="nav-link" href="index.html#menu">Menu</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle fs-5"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item fs-5" href="index.html#contact">Booking</a></li>
+                    <li><a class="dropdown-item fs-5" href="index.html#team">Our Team</a></li>
+                    <li><a class="dropdown-item fs-5" href="index.html#feedback">Testimonial</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="index.html#contact">Contact</a>
+                </li>
+                <button class="ms-3 border border-0 py-1 px-3 fs-5 my-btn fst-text">Book A Table</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero py-5 ">
+          <!-- Carousel -->
+          <div id="carouselExampleRide" class="carousel slide pt-5" data-bs-ride="true">
+            <div class="carousel-inner pt-2">
+              <div class="carousel-item active">
+                <img src="assets/images/main1bn.png" class="d-block w-100" alt="Banner-image-1" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/main2bn.png" class="d-block w-100" alt="Banner-image-2" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/main3bn.png" class="d-block w-100" alt="Banner-image-3" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Restaurant Section -->
+        <section id="service">
+          <!-- Restaurant Info -->
+          <div class="res-info py-5">
+            <div class="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3 gap-4">
+              <div class="col my-sm-4 px-5 shadow-lg">
+                <img class="img-fluid my-4" src="assets/images/icons/icon-1.png" alt="" />
+                <h3 class="fs-3 trd-text">Master Chefs</h3>
+                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nemo!</p>
+              </div>
+              <div class="col my-sm-4 px-5 shadow-lg">
+                <img class="img-fluid my-4" src="assets/images/icons/icon-2.png" alt="" />
+                <h3 class="fs-3 trd-text">Quality Food</h3>
+                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nemo!</p>
+              </div>
+              <div class="col my-sm-4 px-5 shadow-lg">
+                <img class="img-fluid my-4" src="assets/images/icons/icon-3.png" alt="" />
+                <h3 class="fs-3 trd-text">24/7 Service</h3>
+                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nemo!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+          <!-- About Info -->
+          <div class="about row justify-content-center row-cols-1 row-cols-lg-2 my-5">
+            <div class="col mt-5">
+              <img class="img-fluid" src="assets/images/about-banner.png" alt="" />
+            </div>
+            <div class="col text-start mx-auto my-auto px-5 mb-5">
+              <h4 class="snd-text">About Us</h4>
+              <h2 class="trd-text fs-1">Welcome to <img style="width: 50px" src="assets/images/logo.png" alt="" /> Hossain's Restaurant</h2>
+              <p class="py-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam hic harum maiores quis quo nesciunt,
+                earum voluptatem deserunt rem in.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt dolorem quaerat nobis saepe.
+              </p>
+              <div class="d-flex gap-5">
+                <div class="d-flex ps-2">
+                  <h3 class="fs-1 trd-text">15</h3>
+                  <span class="fs-6 ps-3 pt-2">
+                    Years of <br />
+                    <strong>EXPERIENCE</strong>
+                  </span>
+                </div>
+                <div class="d-flex ps-2">
+                  <h3 class="fs-1 trd-text">50</h3>
+                  <span class="fs-6 ps-3 pt-2">
+                    Popular <br />
+                    <strong>MASTER CHEFS</strong>
+                  </span>
+                </div>
+              </div>
+              <button class="px-4 py-3 mt-5 fs-5 border-0 my-btn">READ MORE</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Food Menu Section -->
+        <section id="menu" class="food-menu text-center pt-3">
+          <!-- Food Menu -->
+          <h4 class="snd-text mt-5">Food Menu</h4>
+          <h2 class="trd-text fs-1">Most Popular Items</h2>
+
+          <div class="d-flex flex-column justify-content-center my-4">
+            <ul class="nav nav-pills py-4 d-flex justify-content-center gap-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active text-start d-flex gap-3 pt-3"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  <img
+                    class="img-fluid mx-auto pb-1"
+                    style="width: 34px"
+                    src="assets/images/tab-icon/coffee-cup.png"
+                    alt=""
+                  />
+                  <p class="fst-text">
+                    Popular <br />
+                    <strong>Breakfast</strong>
+                  </p>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link text-start d-flex gap-3 pt-3"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  <img
+                    class="img-fluid mx-auto pb-1"
+                    style="width: 34px"
+                    src="assets/images/tab-icon/burger.png"
+                    alt=""
+                  />
+                  <p class="fst-text">
+                    Spaecial <br />
+                    <strong>Lunch</strong>
+                  </p>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link text-start d-flex gap-3 pt-3"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  <img
+                    class="img-fluid mx-auto pb-1"
+                    style="width: 34px"
+                    src="assets/images/tab-icon/dinner.png"
+                    alt=""
+                  />
+                  <p class="fst-text">
+                    Lovely <br />
+                    <strong>Dinner</strong>
+                  </p>
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+                tabindex="0"
+              >
+                <div class="menu-card-items row row-cols-1 row-cols-lg-2">
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/1.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/2.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/3.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/4.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/5.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/6.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/7.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/8.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/9.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/10.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+                tabindex="0"
+              >
+                <div class="menu-card-items row row-cols-1 row-cols-lg-2">
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/1.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/2.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/3.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/4.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/5.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/6.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/7.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/8.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+                tabindex="0"
+              >
+                <div class="menu-card-items row row-cols-1 row-cols-lg-2">
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/1.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/2.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/3.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/4.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/5.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu-item col d-flex justify-content-center py-2">
+                    <img class="img-thumbnail" src="assets/images/6.jpeg" alt="" />
+                    <div class="">
+                      <div class="menu-item-text d-flex justify-content-between">
+                        <h3 class="fs-5 align-self-center ps-2 ps-md-5 trd-text">Chicken Burger</h3>
+                        <h2 class="fs-3 align-self-center fst-text">$110</h2>
+                      </div>
+                      <p class="ps-2 ps-md-5 mb-1 align-self-center text-start">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+          <div class="contact d-flex flex-wrap flex-md-nowrap my-5 py-5">
+            <div class="contact-img w-100">
+              <img class="img-fluid w-100 h-100" src="assets/images/BG.jpg" alt="" />
+            </div>
+
+            <div class="contact-form-info w-100 p-4">
+              <!-- Food Menu -->
+              <h4 class="pt-4 snd-text">Reservation</h4>
+              <h2 class="trd-text fs-1 mt-2 mb-5">Book A Table Online</h2>
+
+              <form class="">
+                <div class="mb-3">
+                  <input type="text" class="form-control py-3 w-100 mx-auto" placeholder="Your Name" />
+                </div>
+
+                <div class="mb-3">
+                  <input type="email" class="form-control py-3 w-100 mx-auto" placeholder="Your Email" />
+                </div>
+
+                <select class="form-select py-3 mb-3" aria-label="select example">
+                  <option selected>How Many People</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                  <option value="4">Four</option>
+                  <option value="5">Five</option>
+                </select>
+
+                <div class="mb-3">
+                  <textarea
+                    name="message"
+                    id=""
+                    rows="4"
+                    class="ps-2 py-2 w-100 d-block mx-auto border border-0"
+                    placeholder="Message Your Special Request"
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="my-btn btn-primary w-100 py-3 border-0 mb-4 fst-text">BOOK NOW</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- Team Members -->
+        <section id="team">
+          <div class="member-text pb-4 text-center">
+            <h4 class="pt-4 snd-text">Team Members</h4>
+            <h2 class="trd-text fs-1">Our Master Chefs</h2>
+          </div>
+
+          <div class="members row row-cols-1 row-cols-md-3 row-cols-lg-4 justify-content-center px-3">
+            <div class="col member-card text-center">
+              <img class="rounded-circle img-fluid" src="assets/images/chef/Chef1.jpg" alt="" />
+              <h5 class="pt-2 trd-text">Full Name</h5>
+              <p class="fst-text">Designation</p>
+            </div>
+
+            <div class="col member-card text-center">
+              <img class="rounded-circle img-fluid" src="assets/images/chef/Chef2.jpg" alt="" />
+              <h5 class="pt-2 trd-text">Full Name</h5>
+              <p class="fst-text">Designation</p>
+            </div>
+
+            <div class="col member-card text-center">
+              <img class="rounded-circle img-fluid" src="assets/images/chef/Chef3.jpg" alt="" />
+              <h5 class="pt-2 trd-text">Full Name</h5>
+              <p class="fst-text">Designation</p>
+            </div>
+
+            <div class="col member-card text-center">
+              <img class="rounded-circle img-fluid" src="assets/images/chef/Chef4.jpg" alt="" />
+              <h5 class="pt-2 trd-text">Full Name</h5>
+              <p class="fst-text">Designation</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section id="feedback">
+          <div class="testimonial-text pb-4 text-center mt-5">
+            <h4 class="pt-4 snd-text">Testimonial</h4>
+            <h2 class="fs-1 trd-text">Our Clients Say!!!</h2>
+          </div>
+
+          <!-- Slick Slider -->
+          <div class="testimonial pb-5">
+            <div class="testimonial-card p-4">
+              <div class="">
+                <i class="fa-solid fa-quote-left fs-1"></i>
+                <p class="pt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti dolores repudiandae
+                  laudantium nulla nemo
+                </p>
+              </div>
+              <div class="d-flex">
+                <img class="rounded-circle" src="assets/images/clients/clients1.jpg" alt="Client Photo" />
+                <div class="ps-3">
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card p-4">
+              <div class="">
+                <i class="fa-solid fa-quote-left fs-1"></i>
+                <p class="pt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti dolores repudiandae
+                  laudantium nulla nemo
+                </p>
+              </div>
+              <div class="d-flex">
+                <img class="rounded-circle" src="assets/images/clients/clients2.jpg" alt="Client Photo" />
+                <div class="ps-3">
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card p-4">
+              <div class="">
+                <i class="fa-solid fa-quote-left fs-1"></i>
+                <p class="pt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti dolores repudiandae
+                  laudantium nulla nemo
+                </p>
+              </div>
+              <div class="d-flex">
+                <img class="rounded-circle" src="assets/images/clients/clients3.jpg" alt="Client Photo" />
+                <div class="ps-3">
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card p-4">
+              <div class="">
+                <i class="fa-solid fa-quote-left fs-1"></i>
+                <p class="pt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti dolores repudiandae
+                  laudantium nulla nemo
+                </p>
+              </div>
+              <div class="d-flex">
+                <img class="rounded-circle" src="assets/images/clients/clients4.jpg" alt="Client Photo" />
+                <div class="ps-3">
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card p-4">
+              <div class="">
+                <i class="fa-solid fa-quote-left fs-1"></i>
+                <p class="pt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti dolores repudiandae
+                  laudantium nulla nemo
+                </p>
+              </div>
+              <div class="d-flex">
+                <img class="rounded-circle" src="assets/images/clients/clients5.jpg" alt="Client Photo" />
+                <div class="ps-3">
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card p-4">
+              <div class="">
+                <i class="fa-solid fa-quote-left fs-1"></i>
+                <p class="pt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti dolores repudiandae
+                  laudantium nulla nemo
+                </p>
+              </div>
+              <div class="d-flex">
+                <img class="rounded-circle" src="assets/images/clients/clients5.jpg" alt="Client Photo" />
+                <div class="ps-3">
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card p-4">
+              <div class="">
+                <i class="fa-solid fa-quote-left fs-1"></i>
+                <p class="pt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti dolores repudiandae
+                  laudantium nulla nemo
+                </p>
+              </div>
+              <div class="d-flex">
+                <img class="rounded-circle" src="assets/images/clients/clients6.jpg" alt="Client Photo" />
+                <div class="ps-3">
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 pt-5">
+          <div class="col py-3">
+            <h3 class="pb-2 snd-text fs-2">Company</h3>
+            <ul class="company fst-text">
+              <li>
+                <i class="fa-solid fa-angle-right py-2"></i> <a class="ps-2 text-decoration-none" href="">About Us</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-angle-right py-2"></i> <a class="ps-2 text-decoration-none" href="">Contact Us</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-angle-right py-2"></i>
+                <a class="ps-2 text-decoration-none" href="">Reservation</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-angle-right py-2"></i>
+                <a class="ps-2 text-decoration-none" href="">Privacy Policy</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-angle-right py-2"></i>
+                <a class="ps-2 text-decoration-none" href="">Terms & Condition</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col py-3">
+            <h3 class="pb-2 snd-text fs-2">Contact</h3>
+            <ul class="">
+              <li class="fst-text"><i class="fa-solid fa-location-dot py-2"></i> Lalbagh, Dhaka Bangladesh</li>
+              <li class="fst-text"><i class="fa-solid fa-phone py-2"></i> 01234 - 567890</li>
+              <li class="fst-text"><i class="fa-solid fa-envelope py-2"></i> hossainsrestaurant@.com</li>
+            </ul>
+
+            <ul class="d-flex gap-3 social-icon">
+              <li class="p-2 rounded-circle">
+                <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="p-2 rounded-circle">
+                <a href="https://www.facebook.com/md.reyaan.399" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="p-2 rounded-circle">
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li class="p-2 rounded-circle">
+                <a href="https://www.linkedin.com/in/hossain-uddin-805a872ba/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col py-3">
+            <h3 class="pb-2 snd-text fs-2">Opening</h3>
+            <ul class="list-unstyled">
+              <li><h4 class="fst-text">Monday - Saturday</h4></li>
+              <li class="fst-text mb-3">09AM - 09PM</li>
+              <li><h4 class="fst-text">Sunday</h4></li>
+              <li class="fst-text">10AM - 08PM</li>
+            </ul>
+          </div>
+          <div class="col py-3">
+            <h3 class="pb-2 snd-text fs-2">Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illo?</p>
+
+            <form action="" class="d-flex flex-warp">
+              <input class="py-3 px-4" type="email" placeholder="Your email" />
+              <input class="py-3 px-3 my-btn trd-text" type="submit" value="SIGNUP" />
+            </form>
+          </div>
+        </div>
+        <hr class="mt-5" />
+        <div class="text-center pb-4">&copy; Hossain's Restaurant, 2024 Hossain Uddin Ahamad. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <!-- Slick Slider -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(".testimonial").slick({
+        centerMode: true,
+        centerPadding: "20px",
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 1400,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "20px",
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 950,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "20px",
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 700,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "20px",
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
