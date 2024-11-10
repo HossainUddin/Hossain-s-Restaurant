@@ -30,10 +30,3 @@ Welcome to the **Hossain's Restaurant** website repository! This project showcas
   - Social media icons with links to the restaurant’s social media profiles.
   - Additional details like contact information, address, and operating hours for easy access.
 
-## 🚀 Getting Started
-
-To get started with this project, clone the repository and open the index file in your preferred browser. Make sure to add any custom styles, scripts, and backend functionality if needed.
-
-```bash
-git clone https://github.com/yourusername/bangladeshi-restaurant-website.git
-cd bangladeshi-restaurant-website
